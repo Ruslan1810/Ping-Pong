@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyRelased" onKeyTyped="#onKeyTyped" prefHeight="300.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ping.pong.FXMLDocumentController">
+   <children>
+      <Button mnemonicParsing="false" text="Button" />
+      <TextField fx:id="countField1" layoutX="518.0" layoutY="261.0" prefHeight="7.0" prefWidth="30.0" />
+      <TextField fx:id="countField2" layoutX="518.0" layoutY="190.0" prefHeight="10.0" prefWidth="30.0" />
+      <AnchorPane fx:id="myAnchorPane" prefHeight="300.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
